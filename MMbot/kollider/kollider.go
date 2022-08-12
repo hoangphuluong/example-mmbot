@@ -10,6 +10,7 @@ import (
 	"example/mmbot/trading-bot/model"
 	"example/mmbot/trading-bot/service"
 	"example/mmbot/trading-bot/util"
+	orderbookCache "example/mmbot/trading-bot/obcache"
 
 	"github.com/gorilla/websocket"
 	log "github.com/sirupsen/logrus"
